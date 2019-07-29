@@ -1,1 +1,9 @@
-get http://localhost:3001/api/persons/
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "this is the title",
+    "author": "william", 
+    "url": "will.com",
+    "likes": 23
+}
