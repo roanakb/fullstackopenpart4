@@ -1,4 +1,5 @@
 const app = require('./app')
+console.log("app")
 const http = require('http')
 const config = require('./utils/config')
 const server = http.createServer(app)
